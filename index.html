@@ -50,22 +50,9 @@
           <h2 class="code-examles__title">Code examples</h2>
           <p class="code-examles__examle">Here is my code</p>
           <pre>
-            <code class="code-examples__code">function anagrams(word, words) {
-  let newList = []
-  for (let i = 0; i < words.length; i++) {
-    if (words[i].lenght === word
-              .lenght && words[i]
-              .split('')
-              .sort()
-              .join('') === word
-              .split('')
-              .sort()
-              .join(''))
-      {
-      newList.push(words[i])
-      }
-  }
-  return newList
+            <code class="code-examples__code">function squareDigits(num){
+  num = num + ''
+  return Number(num.split('').map(e => e * e).join(''))
 }           </code>
           </pre>
         </section>
@@ -89,7 +76,7 @@
         </section>
       </div>
       <div class="wrapper">
-        <img class="header-photo" src="my_photo.jpg" alt="my-photo" width="640px">
+        <img class="header-photo" src="my_photo.jpg" alt="my-photo" width="640">
       </div>
     </div>
   </div>

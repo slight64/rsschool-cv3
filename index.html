@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Curriculum Vitae</title>
+</head>
+
+<body>
+<header class="header">
+  <div class="container"><h1 class="title">Curriculum Vitae</h1>
+
+  </div>
+</header>
+<main class="main">
+  <div class="container">
+    <div class="flex-box-wrapper">
+      <div class="wrapper">
+        <section class="my-name section">
+          <h2 class="my-name__title">My name is</h2>
+          <p class="my-name__name">Vladimir Denisenko</p>
+        </section>
+        <section class="contacts section">
+          <h2 class="contacts__title">Contacts</h2>
+          <p class="contacts__contact">
+            Telegram: <a class="contacts__telegram-link" href="https://t.me/slight64">@slight64</a>
+          </p>
+        </section>
+        <section class="about section">
+          <h2 class="about__title">About</h2>
+          <p class="my-name__name">Now I am a freelance photographer. I have always been attracted to the profession of
+            a
+            programmer, so at the moment, my goal is to gain knowledge in this area and change job. I like to gain new
+            knowledge, I like to structure the training and enjoy the achievement of results.</p>
+        </section>
+        <section class="skills section">
+          <h2 class="skills__title">Skills</h2>
+          <ul class="skills-list">
+            <li class="skills-list__item">HTML</li>
+            <li class="skills-list__item">CSS</li>
+            <li class="skills-list__item">JS</li>
+            <li class="skills-list__item">Git</li>
+            <li class="skills-list__item">BEM. Methodology</li>
+          </ul>
+        </section>
+        <section class="code-examles section">
+          <h2 class="code-examles__title">Code examples</h2>
+          <p class="code-examles__examle">Here is my code</p>
+          <pre>
+            <code class="code-examples__code">function anagrams(word, words) {
+  let newList = []
+  for (let i = 0; i < words.length; i++) {
+    if (words[i].lenght === word
+              .lenght && words[i]
+              .split('')
+              .sort()
+              .join('') === word
+              .split('')
+              .sort()
+              .join(''))
+      {
+      newList.push(words[i])
+      }
+  }
+  return newList
+}           </code>
+          </pre>
+        </section>
+        <section class="experience section">
+          <h2 class="experience__title">Experience</h2>
+          <p class="experience__text">
+            <a class="experience__link" href="https://github.com/slight64/exel-course">My unfinished course work</a>
+          </p>
+        </section>
+        <section class="education section">
+          <h2 class="education__title">Education</h2>
+          <p class="education__text">
+            <a class="education__link" href="https://www.udemy.com/course/javascript-full-guide/">JavaScript 2021 -
+              Полное
+              Руководство с Нуля до Профи, Авторы: Владилен Минин</a>
+          </p>
+        </section>
+        <section class="english-level section">
+          <h2 class="english-level__title">My english level</h2>
+          <p class="english-level__text">intermediate (B1)</p>
+        </section>
+      </div>
+      <div class="wrapper">
+        <img class="header-photo" src="my_photo.jpg" alt="my-photo" width="640px">
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="footer">
+  <div class="container">
+    <p class="footer-text">
+      <time class="footer-time">2021-03-04</time>
+      Complete first version of my CV
+    </p>
+  </div>
+</footer>
+</body>
+</html>

@@ -53,6 +53,10 @@ a:hover{
   /* Box-model */
   padding: 0;
   margin: 20px 20px;
+  /* Visual */
+  border-radius: 50px;
+  box-shadow: 1px 5px 5px #b2b2b2;
+
 }
 .section {
   /* Box-model */
@@ -62,6 +66,7 @@ a:hover{
   border: 1px solid lightgrey;
   border-radius: 8px;
   background-color: whitesmoke;
+  box-shadow: 1px 5px 5px #b2b2b2;
 }
 .skills-list {
   /* Visual */
@@ -83,4 +88,10 @@ a:hover{
   color: aliceblue;
   /* Visual */
   background-color: #000000;
+}
+
+.footer-wrapper {
+  /* Box-model */
+  display: flex;
+  justify-content: space-between;
 }

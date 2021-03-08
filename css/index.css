@@ -40,6 +40,12 @@ a:hover{
   /* Box-model */
   width: 1280px;
 }
+.center {
+  /* Positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .flex-box-wrapper {
   /* Box-model */
   display: flex;

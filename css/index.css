@@ -40,6 +40,12 @@ a:hover{
   /* Box-model */
   width: 1280px;
 }
+.center {
+  /* Positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .flex-box-wrapper {
   /* Box-model */
   display: flex;
@@ -65,7 +71,6 @@ a:hover{
   border: 1px solid lightgrey;
   border-radius: 8px;
   background-color: whitesmoke;
-  box-shadow: 1px 5px 5px #b2b2b2;
 }
 .skills-list {
   /* Visual */
@@ -86,14 +91,5 @@ a:hover{
   /* Typography */
   color: aliceblue;
   /* Visual */
-  background-color: #474747;
-}
-.footer-text {
-  max-width: 250px;
-}
-.footer-wrapper {
-  /* Box-model */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: #000000;
 }

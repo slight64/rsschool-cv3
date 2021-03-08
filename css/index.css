@@ -1,0 +1,92 @@
+* {
+  /* Box-model */
+  padding: 0;
+  margin: 0;
+}
+body {
+  /* Typography */
+  font-family : Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  color: #000000;
+  font-size: 18px;
+}
+h2 {
+  /* Box-model */
+  margin-bottom: 10px;
+  /* Typography */
+  font-size: 24px;
+  /* Visual */
+  border-bottom: 1px solid lightgrey;
+}
+a {
+  /* Typography */
+  font-weight: 600;
+  color: #000000;
+}
+a:hover{
+  /* Typography */
+  color: darkblue;
+}
+.header {
+  /* Positioning */
+  padding: 20px 0 20px 0;
+  /* Typography */
+  color: aliceblue;
+  /* Visual */
+  background-color: #000000;
+}
+.container {
+  /* Positioning */
+  margin: 0 auto;
+  /* Box-model */
+  width: 1280px;
+}
+.center {
+  /* Positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-box-wrapper {
+  /* Box-model */
+  display: flex;
+  align-items: flex-start;
+}
+.wrapper {
+  /* Box-model */
+  max-width: 640px;
+}
+.header-photo {
+  /* Box-model */
+  padding: 0;
+  margin: 20px 20px;
+}
+.section {
+  /* Box-model */
+  padding: 20px 20px;
+  margin: 20px 0;
+  /* Visual */
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  background-color: whitesmoke;
+}
+.skills-list {
+  /* Visual */
+  list-style: none;
+}
+.code-examples__code {
+  /* Box-model */
+  display: block;
+  padding: 10px;
+  /* Visual */
+  background-color: #ffffff;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+}
+.footer {
+  /* Box-model */
+  padding: 20px 0 20px 0;
+  /* Typography */
+  color: aliceblue;
+  /* Visual */
+  background-color: #000000;
+}
